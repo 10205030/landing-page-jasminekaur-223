@@ -1,0 +1,74 @@
+header, body {
+    background-color: #eee;
+}
+#header-img {
+    position: relative;
+    align-self: left;
+    box-sizing: border-box;
+    height: 72px;
+    width: auto;
+}
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+.nav-link{
+    color: black;
+}
+.container-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#email {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.btn {
+    margin: 15px 0;
+    background-color: rgb(255, 202, 10);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#features {
+    align-content: center;
+}
+.icon {
+    font-weight:900;
+    font-size: 3em;
+    padding-bottom: 50px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: space-around;
+    color: darkorange;
+}
+.col-words {
+    padding: 10px;
+}
+.container-video {
+    display: flex;
+    justify-content: center;
+}
+#pricing {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 35px;
+}
+#price {
+    border: 2px solid black;
+    text-align: center;
+    margin-right: 10px;
+}
+h4 {
+    background-color: lightgray;
+    text-align: center;
+}
+ol {
+    list-style: none;
+}
